@@ -40,13 +40,43 @@ The dataset used in this project contains the following columns:
 
 To run this project, you need to have Python installed on your machine along with the required libraries. You can install the necessary libraries using `pip`:
 
-```bash
+bash
 pip install pandas scikit-learn
 
-![image](https://github.com/user-attachments/assets/f1b76490-aa84-44ab-8448-ca28504d7354)
 
-![image](https://github.com/user-attachments/assets/e512d25d-200c-4eaf-a9ec-9cc860cf4afc)
+**Usage**
+Clone the repository to your local machine:
 
-![image](https://github.com/user-attachments/assets/d73091c7-0fb0-4f70-b291-4377e8a413c5)
+--git clone https://github.com/YBIFoundation/Chance-of-Admission-Prediction.git
+
+**Run the Python script:**
+
+--python admission_prediction.py
+
+**Results**
+After training the model, the following evaluation metrics were obtained:
+
+Mean Absolute Error (MAE): 0.0478
+Mean Absolute Percentage Error (MAPE): 8.31%
+Mean Squared Error (MSE): 0.00448
+
+
+**Conclusion**
+The linear regression model successfully predicts the chance of admission to a university based on various factors. The model performs reasonably well with a low error rate.
+
+**Acknowledgements**
+The dataset was sourced from the YBI Foundation.
+
+
+### Explanation:
+- **Dataset Description**: Provides a detailed explanation of the dataset and its columns.
+- **Project Workflow**: Describes the steps followed in the project.
+- **Installation**: Instructions to install the necessary libraries.
+- **Usage**: How to clone the repository and run the project.
+- **Results**: Displays the evaluation metrics of the model.
+- **License and Acknowledgements**: Standard sections for licensing and credits.
+
+
+
 
 
